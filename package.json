@@ -1,0 +1,15 @@
+{
+  "name": "modular-s3-page",
+  "version": "0.0.1",
+  "description": "Sample project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Tomas",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  }
+}
