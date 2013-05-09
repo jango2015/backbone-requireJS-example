@@ -1,0 +1,37 @@
+<link href="css/contest.css" rel="stylesheet"	type="text/css"/>
+<h2 class="shine">Participa por un Samsung Galaxy SIII completando el siguiente formulario:</h2>
+<form class="span12" name="newCell" method="post" action="#" onsubmit="return validate(this);">
+	<span id="errors"></span>
+	<label >Nombre:</label> 
+	<input name="userName" type="text" placeholder="Escribe tu nombre" required /></br>
+	<label>Correo elec.:</label> <input name="email" type="mail" placeholder="Escribe tu direccion de correo" required /></br>
+	<label>Location:</label> 
+	<select name="location">
+		<option selected>Elige una location...</option>
+		<option>Buenos Aires I</option>
+		<option>Buenos Aires II</option>
+		<option>Buenos Aires III</option>
+		<option>Cordoba</option>
+		<option>La Plata</option>
+		<option>Bahia Blanca</option>
+		<option>Rosario</option>
+		<option>Tandil</option>
+		<option>Resistencia</option>
+		<option>Tucuman</option>
+	</select></br>
+	Eleg&iacute; un color</br>
+	<div class="chooseColor">
+		<img class="imgColor" alt="grey" src="img/grey.jpg"/>
+		<input name="color" type="radio" checked />
+	</div>
+	<div class="chooseColor">
+		<img class="imgColor" alt="red" src="img/red.jpg"/>
+		<input name="color" type="radio" />
+	</div>
+	<div class="chooseColor">
+		<img class="imgColor" alt="brown" src="img/brown.jpg"/></br>
+		<input name="color" type="radio" />
+	</div></br>
+
+	<button type="submit" value="Enviar">Enviar</button>
+</form>

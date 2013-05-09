@@ -1,0 +1,176 @@
+.imgColor {
+	width: 93.9333%;
+	height: 75%;
+	margin: 3.0333%;
+	display: block;
+}
+
+#content {
+	text-align: center;
+}
+
+
+.chooseColor {
+	display: inline-block;
+	width: 30%;
+	height: 250px;
+	margin: 1.0156%;
+	text-align: center;
+	float: left;
+}
+
+#errors {
+	color: red;
+	font: 14pt/20pt Garamond, Georgia, serif;
+	display: block;
+}
+
+form {
+	padding: 1.0156%;
+	font: 16pt Garamond, Georgia, serif;
+	margin-left: 3.0390%;
+}
+
+input , select{
+	font: 12pt Garamond, Georgia, serif;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+label {
+	display: inline-block;
+	width: 10%;
+}
+
+h2.shine
+{
+    margin: 0 auto;
+}
+
+.shine
+{
+    background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -webkit-background-size: 125px;
+	
+	background: #222 -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -moz-background-size: 125px;
+	
+	background: #222 -ms-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -ms-background-size: 125px;
+	
+	background: #222 -o-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -o-background-size: 125px;
+
+    color: rgba(255, 255, 255, 0.1);
+    -webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o-background-clip: text;
+	-ms-background-clip: text;
+	background-clip: text;
+
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+	
+	-moz-animation-name: shine;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+	
+	-ms-animation-name: shine;
+    -ms-animation-duration: 2s;
+    -ms-animation-iteration-count: infinite;
+	
+	-o-animation-name: shine;
+    -o-animation-duration: 2s;
+    -o-animation-iteration-count: infinite;
+	
+	animation-name: shine;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes shine
+{
+    0%
+    {
+        background-position: top left;
+    }
+    100%
+    {
+        background-position: top right;
+    }
+}
+
+@-moz-keyframes shine
+{
+    0%
+    {
+        background-position: top left;
+    }
+    100%
+    {
+        background-position: top right;
+    }
+}
+
+@-ms-keyframes shine
+{
+    0%
+    {
+        background-position: top left;
+    }
+    100%
+    {
+        background-position: top right;
+    }
+}
+
+@keyframes shine
+{
+    0%
+    {
+        background-position: top left;
+    }
+    100%
+    {
+        background-position: top right;
+    }
+}
+
+button {
+	clear: both;
+    padding: 10px 1.0117%;
+    background: #4479BA;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+button:hover {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+
+button:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	-ms-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	-o-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5481;
+    border: solid 1px #203E5F;
+}
